@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    box-sizing: border-box;
+    background-color: rgba(198, 229, 233, 0.555);
+    border-radius: 25px;
+    padding: 5px;
+}
+
+.heading {
+    padding: 5px;
+    font-weight: light;
+    font-size: 25px;
+    margin-bottom: 15px;
+    margin: 15px auto;
+    margin-left: 30px;
+}
+
+
+.heading p {
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.col-jadwal {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.col-jadwal div {
+    width: 25%;
+    background-color: white;
+    margin: 15px auto;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 2px rgb(112, 112, 112);
+    justify-content: space-between;
+    box-shadow: 2px 2px 5px rgba(145, 145, 145, 0.1);
+    transition: .5s;
+}
+
+.col-jadwal div:hover {
+    scale: 108%;
+}
+
+.col-jadwal p {
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+.senin img {
+    height: 40px;
+    position: relative;
+    z-index: 9;
+    top: -60px;
+    left: -5px;
+}
